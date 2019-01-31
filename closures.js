@@ -23,13 +23,13 @@ function outer() {
 */
   
 // Code Here
-
+const inner = outer()
 
 
 //Once you do that, invoke inner.
 
 //Code Here
-
+inner()
 
 
 ////////// PROBLEM 2 //////////
@@ -52,6 +52,8 @@ function callFriend(name) {
 */
 
 //Code Here
+var callJake = callFriend('Jake')
+callJake('435-555-9248')
 
 
 
@@ -62,7 +64,9 @@ function callFriend(name) {
 */
 
 //Code Here
-
+function makeCounter(){
+  
+}
 
 
 //Uncomment this once you make your function
